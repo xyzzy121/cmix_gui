@@ -438,4 +438,8 @@
         My.Settings.ShowCMD = ShowCMD.Checked
         My.Settings.Save()
     End Sub
+
+    Private Sub AboutLabel1_Click(sender As Object, e As EventArgs) Handles AboutLabel1.Click
+
+    End Sub
 End Class

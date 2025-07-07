@@ -191,17 +191,17 @@ Partial Class Form1
         '
         'AboutLabel1
         '
-        Me.AboutLabel1.AutoSize = true
-        Me.AboutLabel1.Location = New System.Drawing.Point(9, 225)
+        Me.AboutLabel1.AutoSize = True
+        Me.AboutLabel1.Location = New System.Drawing.Point(9, 234)
         Me.AboutLabel1.Name = "AboutLabel1"
-        Me.AboutLabel1.Size = New System.Drawing.Size(165, 13)
+        Me.AboutLabel1.Size = New System.Drawing.Size(353, 13)
         Me.AboutLabel1.TabIndex = 10
-        Me.AboutLabel1.Text = "GUI software by: Moisés Cardona"
+        Me.AboutLabel1.Text = "GUI software by: Moisés Cardona, and updated by mn7216 and xyzzy121"
         '
         'AboutLabel2
         '
-        Me.AboutLabel2.AutoSize = true
-        Me.AboutLabel2.Location = New System.Drawing.Point(9, 238)
+        Me.AboutLabel2.AutoSize = True
+        Me.AboutLabel2.Location = New System.Drawing.Point(9, 249)
         Me.AboutLabel2.Name = "AboutLabel2"
         Me.AboutLabel2.Size = New System.Drawing.Size(101, 13)
         Me.AboutLabel2.TabIndex = 11
@@ -209,8 +209,8 @@ Partial Class Form1
         '
         'Label4
         '
-        Me.Label4.AutoSize = true
-        Me.Label4.Location = New System.Drawing.Point(9, 251)
+        Me.Label4.AutoSize = True
+        Me.Label4.Location = New System.Drawing.Point(9, 263)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(96, 13)
         Me.Label4.TabIndex = 12
@@ -218,22 +218,22 @@ Partial Class Form1
         '
         'LinkLabel1
         '
-        Me.LinkLabel1.AutoSize = true
-        Me.LinkLabel1.Location = New System.Drawing.Point(111, 251)
+        Me.LinkLabel1.AutoSize = True
+        Me.LinkLabel1.Location = New System.Drawing.Point(111, 263)
         Me.LinkLabel1.Name = "LinkLabel1"
         Me.LinkLabel1.Size = New System.Drawing.Size(174, 13)
         Me.LinkLabel1.TabIndex = 11
-        Me.LinkLabel1.TabStop = true
+        Me.LinkLabel1.TabStop = True
         Me.LinkLabel1.Text = "https://github.com/byronknoll/cmix"
         '
         'VersionLabel
         '
-        Me.VersionLabel.AutoSize = true
+        Me.VersionLabel.AutoSize = True
         Me.VersionLabel.Location = New System.Drawing.Point(396, 251)
         Me.VersionLabel.Name = "VersionLabel"
-        Me.VersionLabel.Size = New System.Drawing.Size(50, 13)
+        Me.VersionLabel.Size = New System.Drawing.Size(56, 13)
         Me.VersionLabel.TabIndex = 14
-        Me.VersionLabel.Text = "GUI v1.9"
+        Me.VersionLabel.Text = "GUI v1.11"
         '
         'BrowseFolder
         '
@@ -242,17 +242,17 @@ Partial Class Form1
         Me.BrowseFolder.Size = New System.Drawing.Size(89, 23)
         Me.BrowseFolder.TabIndex = 5
         Me.BrowseFolder.Text = "Browse Folder"
-        Me.BrowseFolder.UseVisualStyleBackColor = true
+        Me.BrowseFolder.UseVisualStyleBackColor = True
         '
         'UseEngDictCheckbox
         '
-        Me.UseEngDictCheckbox.AutoSize = true
+        Me.UseEngDictCheckbox.AutoSize = True
         Me.UseEngDictCheckbox.Location = New System.Drawing.Point(12, 192)
         Me.UseEngDictCheckbox.Name = "UseEngDictCheckbox"
         Me.UseEngDictCheckbox.Size = New System.Drawing.Size(148, 17)
         Me.UseEngDictCheckbox.TabIndex = 9
         Me.UseEngDictCheckbox.Text = "Use the English dictionary"
-        Me.UseEngDictCheckbox.UseVisualStyleBackColor = true
+        Me.UseEngDictCheckbox.UseVisualStyleBackColor = True
         '
         'GroupBox2
         '
@@ -262,37 +262,37 @@ Partial Class Form1
         Me.GroupBox2.Name = "GroupBox2"
         Me.GroupBox2.Size = New System.Drawing.Size(135, 46)
         Me.GroupBox2.TabIndex = 15
-        Me.GroupBox2.TabStop = false
+        Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "Language / Idioma"
         '
         'SpanishRButton
         '
-        Me.SpanishRButton.AutoSize = true
+        Me.SpanishRButton.AutoSize = True
         Me.SpanishRButton.Location = New System.Drawing.Point(70, 19)
         Me.SpanishRButton.Name = "SpanishRButton"
         Me.SpanishRButton.Size = New System.Drawing.Size(63, 17)
         Me.SpanishRButton.TabIndex = 4
-        Me.SpanishRButton.TabStop = true
+        Me.SpanishRButton.TabStop = True
         Me.SpanishRButton.Text = "Español"
-        Me.SpanishRButton.UseVisualStyleBackColor = true
+        Me.SpanishRButton.UseVisualStyleBackColor = True
         '
         'EnglishRButton
         '
-        Me.EnglishRButton.AutoSize = true
+        Me.EnglishRButton.AutoSize = True
         Me.EnglishRButton.Location = New System.Drawing.Point(6, 19)
         Me.EnglishRButton.Name = "EnglishRButton"
         Me.EnglishRButton.Size = New System.Drawing.Size(59, 17)
         Me.EnglishRButton.TabIndex = 3
-        Me.EnglishRButton.TabStop = true
+        Me.EnglishRButton.TabStop = True
         Me.EnglishRButton.Text = "English"
-        Me.EnglishRButton.UseVisualStyleBackColor = true
+        Me.EnglishRButton.UseVisualStyleBackColor = True
         '
         'ProgressLog
         '
         Me.ProgressLog.BackColor = System.Drawing.Color.White
         Me.ProgressLog.Location = New System.Drawing.Point(475, 25)
         Me.ProgressLog.Name = "ProgressLog"
-        Me.ProgressLog.ReadOnly = true
+        Me.ProgressLog.ReadOnly = True
         Me.ProgressLog.Size = New System.Drawing.Size(406, 213)
         Me.ProgressLog.TabIndex = 16
         Me.ProgressLog.Text = ""
@@ -304,11 +304,11 @@ Partial Class Form1
         Me.SaveLogButton.Size = New System.Drawing.Size(310, 23)
         Me.SaveLogButton.TabIndex = 17
         Me.SaveLogButton.Text = "Save Log"
-        Me.SaveLogButton.UseVisualStyleBackColor = true
+        Me.SaveLogButton.UseVisualStyleBackColor = True
         '
         'Label1
         '
-        Me.Label1.AutoSize = true
+        Me.Label1.AutoSize = True
         Me.Label1.Location = New System.Drawing.Point(472, 9)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(28, 13)
@@ -322,7 +322,7 @@ Partial Class Form1
         Me.ClearLogButton.Size = New System.Drawing.Size(90, 23)
         Me.ClearLogButton.TabIndex = 19
         Me.ClearLogButton.Text = "Clear Log"
-        Me.ClearLogButton.UseVisualStyleBackColor = true
+        Me.ClearLogButton.UseVisualStyleBackColor = True
         '
         'StatusStrip1
         '
@@ -336,7 +336,7 @@ Partial Class Form1
         'TotalRAM
         '
         Me.TotalRAM.Name = "TotalRAM"
-        Me.TotalRAM.Size = New System.Drawing.Size(100, 17)
+        Me.TotalRAM.Size = New System.Drawing.Size(101, 17)
         Me.TotalRAM.Text = "Total RAM: 0.0 GB"
         '
         'AvailableRAM
